@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Game:</strong>
+  <%= @h_igh_score.game %>
+</p>
+
+<p>
+  <strong>Score:</strong>
+  <%= @h_igh_score.score %>
+</p>
+
+<%= link_to 'Edit', edit_h_igh_score_path(@h_igh_score) %> |
+<%= link_to 'Back', h_igh_scores_path %>

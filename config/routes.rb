@@ -1,4 +1,7 @@
 Postgre::Application.routes.draw do
+  get "welcome/index"
+  resources :h_igh_scores
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
