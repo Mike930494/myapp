@@ -1,6 +1,4 @@
 # config valid only for Capistrano 3.1
-lock '3.1.0'
-
 set :application, 'postgre'
 set :repo_url, 'git@github.com:Mike930494/myapp.git'
 set :deploy_to, '/home/deploy/postgre'
