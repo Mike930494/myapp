@@ -1,4 +1,5 @@
 Postgre::Application.routes.draw do
+  get "bazzinga/mexico"
   get "welcome/index"
   resources :h_igh_scores
 
